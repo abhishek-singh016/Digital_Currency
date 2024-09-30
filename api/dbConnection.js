@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
+require('dotenv').config();
+const uri =process.env.db_url;
 
-const uri =
-"mongodb+srv://pratapabhishek755:mongoDB@cluster0.3wqrc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose;
 function dbConnection() {
   mongoose
